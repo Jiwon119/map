@@ -1,0 +1,107 @@
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+
+.inputGroup{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 20px 10px;
+}
+.input{
+    margin-left: 10px;
+    height: 30px;
+    width: 90%;
+    min-width: 100px;
+}
+.inputText{
+    min-width: 40px;
+}
+.markerBtn{
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 40x;
+    height: 35px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 0px;   
+    cursor: pointer;
+}
+.markerBtn:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+.searchBtn{
+    margin-left: 10px;
+    width: 45px;
+    min-width: 45px;
+    background-color: transparent;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.searchBtn:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    align-self: flex-end;
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.removeBtn{
+    display: flex;
+    height: max-content;
+    width: max-content;
+    justify-self: flex-end;
+    align-self: center;
+    align-items: center;
+    margin-right: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.removeBtn:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.titleGrop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

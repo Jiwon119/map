@@ -1,0 +1,14 @@
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .header{
+    height: 60px;
+  }
+  .contents {
+    height: 100%;
+    flex: 1;
+  }
